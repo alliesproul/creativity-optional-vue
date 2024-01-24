@@ -1,6 +1,24 @@
-# creativity-optional-website
-The face of optional creativity
+# creativity-optional
 
-The repo can be found [here](https://github.com/BCaven/creativity-optional)
+## Project setup
+```
+npm install
+```
 
-The website can be found [here](https://bcaven.github.io/)
+### Compiles and hot-reloads for development
+```
+npm run serve
+```
+
+### Compiles and minifies for production
+```
+npm run build
+```
+
+### Lints and fixes files
+```
+npm run lint
+```
+
+### Customize configuration
+See [Configuration Reference](https://cli.vuejs.org/config/).
