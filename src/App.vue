@@ -1,4 +1,5 @@
 <template>
+  <h1>This project gets automatically deployed via github actions.</h1>
   <HelloWorld msg="Creativity Optional: please build me"/>
 </template>
 
