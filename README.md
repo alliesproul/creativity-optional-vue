@@ -11,6 +11,8 @@ npm run serve
 ```
 
 ### Compiles and minifies for production
+
+This step is done automatically, but if for some reason you need to do it manually:
 ```
 npm run deploy
 ```
