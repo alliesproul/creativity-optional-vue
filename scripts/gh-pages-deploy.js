@@ -30,7 +30,7 @@ const fs = require("fs");
         // eslint-disable-next-line no-console
         console.log(e.message);
         // if we fail we want to go back to the branch we started on
-        await execa("git", ["branch", branch.stdout]);
+        await execa("git", ["branch", "-f", branch.stdout]);
         process.exit(1);
     }
 })();
