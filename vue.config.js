@@ -1,3 +1,3 @@
 module.exports = {
-  publicPath: process.env.NODE_ENV === "production" ? "/creativityoptional/" : "/",
+  publicPath: process.env.NODE_ENV === "production" ? "/creativity-optional-vue/" : "/",
 };
