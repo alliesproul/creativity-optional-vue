@@ -12,8 +12,11 @@ npm run serve
 
 ### Compiles and minifies for production
 ```
-./deploy.sh
+npm run deploy
 ```
+> NOTE: this command can only be successfully run from the main branch
+
+> NOTE: this site is deployed to [bcaven.github.io/creativity-optional-vue/](https://bcaven.github.io/creativity-optional-vue/)
 
 ### Lints and fixes files
 ```
