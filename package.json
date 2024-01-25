@@ -5,7 +5,8 @@
   "scripts": {
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
-    "lint": "vue-cli-service lint"
+    "lint": "vue-cli-service lint",
+    "deploy": "node scripts/gh-pages-deploy.js"
   },
   "dependencies": {
     "core-js": "^3.8.3",
@@ -40,8 +41,5 @@
     "last 2 versions",
     "not dead",
     "not ie 11"
-  ],
-  "scripts": {
-    "deploy": "node scripts/gh-pages-deploy.js"
-  }
+  ]
 }
