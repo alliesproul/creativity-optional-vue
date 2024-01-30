@@ -1,0 +1,102 @@
+body{
+    background-color:#f4f4f4;
+    color:#555;
+    font-family:Arial,Helvetica,sans-serif;
+    font-size:16px;
+    line-height:1.6em;
+    margin:0;
+}
+.container{
+    width:90%;
+    margin:auto;
+    overflow:hidden;
+}
+#main-header{
+    background-color:purple;
+    color:#fff;
+}
+#navbar{
+    background-color:#333;
+    color:#fff;
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+}
+#navbar ul{
+    padding:0;
+    list-style:none;
+}
+#navbar li{
+    display:inline;
+    padding-right:20px;
+}
+#navbar a{
+    color:#fff;
+    text-decoration: none;
+    font-size:18px;
+    padding-right:15px;
+}
+#navbar a:hover{
+    transition: .5s;
+    color:purple;
+}
+.movieselect{
+    margin: 10px 0;
+    width:25%;
+    display:inline;
+    box-sizing:border-box;
+}
+.movieselect img{
+    margin: 10px 10px;
+    border-radius:10px;
+    width:25%;
+}
+/*
+.movieselect h3{
+    position:absolute;
+    color: #333;
+    opacity:1;
+}
+.movieselect:hover .image{
+    opacity:0.1;
+}*/
+.videopost{
+    float:left;
+    text-align:center;
+    box-sizing:border-box;
+    margin: 25px 25px;
+    padding: 10px 30px 10px 30px;
+    border:5px #333 double;
+    border-radius:10px;
+    background-color: #333;
+    width:22%;
+}
+.videopost a{
+    font-size:1.2em;
+    text-decoration:none;
+    color:#f4f4f4;
+}
+.videopost a:hover{
+    transition: .5s;
+    color:purple;
+}
+.video h2{
+    text-align: center;
+}
+.video video{
+    display:block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 90%;
+}
+
+
+
+
+#main-footer{
+    background:#333;
+    color:#fff;
+    text-align:center;
+    padding:20px;
+    margin-top:40px;
+}
