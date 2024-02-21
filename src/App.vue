@@ -1,26 +1,11 @@
 <template>
-  <h1>This project gets automatically deployed via github actions.</h1>
-  <HelloWorld msg="Creativity Optional: please build me"/>
+  <v-app>
+    <v-main>
+      <h1>Creativity Optional</h1>
+    </v-main>
+  </v-app>
 </template>
 
-<script>
-import HelloWorld from './components/HelloWorld.vue'
-
-export default {
-  name: 'App',
-  components: {
-    HelloWorld
-  }
-}
+<script setup>
+  
 </script>
-
-<style>
-#app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
-  margin-top: 60px;
-}
-</style>
