@@ -1,11 +1,11 @@
 <template>
-  <v-card color="grey">
+  <v-card color=#e9e9e9>
     <v-card-title class="text-center">
-      <h1 class="font-weight-bold text-h2 text-title" color="yellow">Creativity Optional</h1>
+      <h1 class="font-weight-bold text-h2 text-title" color=#21212c>Creativity Optional</h1>
     </v-card-title>
 
 
-  <v-tabs v-model="tab" bg-color="grey" color="red" grow>
+  <v-tabs v-model="tab" bg-color=#21212c color=#ffdf32 grow>
       <v-tab v-for="item in items" :key="item" :value="item">
         {{ item }}
       </v-tab>
@@ -14,21 +14,22 @@
   <v-window v-model="tab">
     <!-- Home Page -->
     <v-window-item value="Home">
-      <HelloWorld></HelloWorld>
+      <HomePage></HomePage>
     </v-window-item>
 
     <!-- Simulation Page -->
     <v-window-item value="Simulation">
+      <SimulationPage></SimulationPage>
     </v-window-item>
 
     <!-- Info Page -->
     <v-window-item value="Info">
-
+      <InfoPage></InfoPage>
     </v-window-item>
 
-    <!-- About / Team Page -->
-    <v-window-item value="Team">
-
+    <!-- About / Contact Page -->
+    <v-window-item value="Contact">
+      <ContactPage></ContactPage>
     </v-window-item>
 
   </v-window>
@@ -36,7 +37,10 @@
 </template>
 
 <script setup>
-import HelloWorld from './components/HelloWorld.vue';
+import HomePage from './components/HomePage.vue';
+import SimulationPage from './components/SimulationPage.vue';
+import InfoPage from './components/InfoPage.vue';
+import ContactPage from './components/ContactPage.vue';
 
 </script>
 
@@ -44,8 +48,8 @@ import HelloWorld from './components/HelloWorld.vue';
 export default {
   data() {
     return {
-      tab: 'gamers',
-      items: ['Home', 'Simulation', 'Info', 'Team'],
+      tab: 'directory',
+      items: ['Home', 'Simulation', 'Info', 'Contact'],
     }
   }
 }
@@ -53,11 +57,11 @@ export default {
 
 <style>
 body {
-  background-color: grey;
+  background-color: #21212c;
 }
 
 .text-title {
-  color: red;
+  color: #3253ff;
 }
 
 </style>
