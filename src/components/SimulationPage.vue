@@ -7,6 +7,12 @@
 
         <div class="py-7" />
         <v-img height="500" src="@/assets/ponder.png" />
+        <div class="py-3" />
+        <h2 class="text-h3 font-weight-bold">Demo Video</h2>
+        <video width="900" controls>
+          <source src="@/assets/basic_demo.mp4">
+          Your browser does not support the video tag.
+        </video>
         <div class="py-7" />
 
       </v-responsive>
